@@ -1,13 +1,31 @@
 # EThingShop
 
-# Bash
+## 🚀 Getting Started
 
-- cd EThingShop-BE
+### Backend
 
-* yarn install
-* yarn start:dev
+```bash
+cd EThingShop-BE
+```
 
-- cd EThingShop-FE
+1. Tạo file `.env` từ `.env.example`
+2. Cài dependencies và chạy:
 
-* yarn install
-* yarn dev
+```bash
+yarn install
+yarn prisma generate
+yarn start:dev
+```
+
+---
+
+### Frontend
+
+```bash
+cd EThingShop-FE
+```
+
+```bash
+yarn install
+yarn dev
+```
